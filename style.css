@@ -1,0 +1,265 @@
+/* Full body color */
+
+body{
+    background-color: #F8F8F8;
+}
+
+/* HTML 5 Element Practise */
+
+.order-list{
+    display: flex;
+    margin-bottom: 150px;
+    padding-left: 150px;
+}
+
+.ol-1{
+    background: #324960;
+    border-radius: 26px;
+    width: 300px;
+    height: 350px;
+    left: 156px;
+    top: 700px;
+    margin-right: 80px;
+    margin-left: 80px;
+    
+}
+.ol-2{
+    background: #4FC3A1;
+    border-radius: 26px;
+    width: 300px;
+    height: 350px;
+    left: 156px;
+    top: 700px;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+.ol-3{
+    background: #324960;
+    border-radius: 26px;
+    width: 300px;
+    height: 350px;
+    left: 156px;
+    top: 700px;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+
+.ol-1, caption, ol, li{
+    position: static;
+    text-align: left;
+    padding: 2px;
+    color: white;
+    margin-left: 20px;
+    padding-top: 15px;
+    padding-left: 5px ;
+}
+.ol-2, caption, ol, li{
+    position: static;
+    text-align: left;
+    padding: 2px;
+    color: white;
+    margin-left: 20px;
+    padding-top: 15px;
+    padding-left: 5px ;
+}
+.ol-3, caption, ol, li{
+    position: static;
+    text-align: left;
+    padding: 2px;
+    color: white;
+    margin-left: 20px;
+    padding-top: 15px;
+    padding-left: 5px ;
+}
+
+
+
+
+
+/* z-index Practise */
+
+.z-index{
+    position: relative;
+    left: 650px;
+}
+
+.boy{
+    position: relative;
+    z-index: 3;
+    top: 50px;
+}
+
+.ring {
+    position: relative;
+    z-index: 2;
+    
+}
+
+.water {
+    position: relative;
+    z-index: 1;
+    bottom: 70px;
+}
+
+
+
+    
+/* table Practise */
+
+  .table-wrapper{
+    margin: 10px 70px 70px;
+    box-shadow: 0px 35px 50px rgba( 0, 0, 0, 0.2 );
+}
+
+.fl-table {
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    white-space: nowrap;
+    background-color: white;
+    padding: 30px;
+}
+
+.fl-table td, .fl-table th {
+    text-align: center;
+    padding: 20px;
+}
+
+.fl-table td {
+    border-right: 1px solid #f8f8f8;
+    font-size: 15px;
+}
+
+.fl-table thead th {
+    color: #ffffff;
+    background: #4FC3A1;
+    font-size: 18px;
+}
+
+
+.fl-table thead th:nth-child(odd) {
+    color: #ffffff;
+    background: #324960;
+}
+
+.fl-table tr:nth-child(even) {
+    background: #F8F8F8;
+}
+
+/* Semantic Tags Practise */
+
+.semantic{
+    margin-bottom: 150px;
+}
+
+.semantic-header {
+    font-size: 22px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.semantic-article{
+    text-align: justify;
+    padding: 10px;
+    font-size: 18px;
+}
+
+/* Youtube Video Embed Practise */
+
+.youtube-video {
+    position: relative;
+    left: 450px;
+    margin-bottom: 100px;
+    
+
+}
+
+/* Animation Practise */
+
+
+.wrapper {
+    height: 300px;
+    /*This part is important for centering*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .typing-demo {
+    width: 22ch;
+    animation: typing 3s steps(25) infinite;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 40px;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+      color: rebeccapurple;
+    }
+
+    50%{
+        color:#00ff00;
+    }
+
+    
+    
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+      color: rebeccapurple;
+    }
+
+    50%{
+        color:#00ff00;
+    }
+    80%{
+        color:#4FC3A1;
+    }
+    10%{
+        color:#00ff00;
+    }
+
+    
+    
+  }
+      
+ 
+
+/* fontawesome icon use practise */
+
+.footer {
+    
+    text-align: center;
+    padding: 3px;
+    background-color: white;
+    background: #4FC3A1;
+    
+
+}
+
+footer, article{
+    padding: 5px;
+    position: relative;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.icon{
+    position: relative;
+    padding: 10px;
+    font-size: 40px;
+    color: #324960;
+}
+
+
+
